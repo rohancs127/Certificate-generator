@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("opoy7.jpg");
+    background-size: cover;
+}
 
 .home, .content-body{
     display: flex;

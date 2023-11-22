@@ -12,7 +12,7 @@ const Home = ()=>{
                 <button className='generate-button'>Generate</button>
             </div>
             <div className="footer">
-                <h4 className="foot-element">footer</h4>
+                <h4 className="foot-element">rohancs127</h4>
             </div>
         </section>
     )

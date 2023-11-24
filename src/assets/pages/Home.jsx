@@ -12,7 +12,7 @@ const Home = ()=>{
                 <button className='generate-button'>Generate</button>
             </div>
             <div className="footer">
-                <h4 className="foot-element">rohancs127</h4>
+                <a href='https://github.com/rohancs127/Certificate-generator'><div className='github-div'><img className='github-logo' src='github-mark-white.svg'/><div className='github-heading'>GitHub</div></div></a>
             </div>
         </section>
     )

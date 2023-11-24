@@ -35,6 +35,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
+    padding: 0.4rem;
 }
 
 .content-body{
@@ -44,4 +45,19 @@ body{
 
 .generate-button{
     margin-top: 20px;
+}
+
+.github-logo{
+    height: 1.3rem;
+}
+
+.github-div{
+    display: flex;
+    column-gap: 10px;
+    cursor: pointer;
+}
+
+.github-heading{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.87);
 }

@@ -5,7 +5,7 @@ import Certificate from './assets/pages/Cerificate';
 function App() {
 
   return (
-    <Home/>
+    <Certificate/>
   )
 }
 

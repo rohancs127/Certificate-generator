@@ -1,4 +1,4 @@
-import '../styles/Certificate.css'
+import CertificateCss from '../styles/Certificate.module.css'
 
 const Certificate = ()=>{
     return(

@@ -1,18 +1,18 @@
-import '../styles/Home.css'
+import HomeCss from '../styles/Home.module.css'
 
 const Home = ()=>{
     return (
-        <section className="home">
-            <div className="header">
-                <h2 className='heading'>Certificate Generator</h2>
+        <section className={HomeCss.home}>
+            <div className={HomeCss.header}>
+                <h2 className={HomeCss.heading}>Certificate Generator</h2>
             </div>
-            <div className="content-body">
+            <div className={HomeCss.contentBody}>
                 <h3>Get Started</h3>
                 <h4>Genenrate your certificate here!</h4>
-                <button className='generate-button'>Generate</button>
+                <button className={HomeCss.generateButton}>Generate</button>
             </div>
-            <div className="footer">
-                <a href='https://github.com/rohancs127/Certificate-generator'><div className='github-div'><img className='github-logo' src='github-mark-white.svg'/><div className='github-heading'>GitHub</div></div></a>
+            <div className={HomeCss.footer}>
+                <a href='https://github.com/rohancs127/Certificate-generator'><div className={HomeCss.githubDiv}><img className={HomeCss.githubLogo} src='github-mark-white.svg'/><div className={HomeCss.githubHeading}>GitHub</div></div></a>
             </div>
         </section>
     )

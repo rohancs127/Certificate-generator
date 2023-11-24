@@ -10,7 +10,7 @@ body{
     background-size: cover;
 }
 
-.home, .content-body{
+.home, .contentBody{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,26 +38,26 @@ body{
     padding: 0.4rem;
 }
 
-.content-body{
+.contentBody{
     margin-top: 20%;
     row-gap: 20px;
 }
 
-.generate-button{
+.generateButton{
     margin-top: 20px;
 }
 
-.github-logo{
+.githubLogo{
     height: 1.3rem;
 }
 
-.github-div{
+.githubDiv{
     display: flex;
     column-gap: 10px;
     cursor: pointer;
 }
 
-.github-heading{
+.githubHeading{
     font-size: 15px;
     color: rgba(255, 255, 255, 0.87);
 }

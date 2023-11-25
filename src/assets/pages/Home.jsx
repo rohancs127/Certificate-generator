@@ -7,8 +7,8 @@ const Home = ()=>{
                 <h2 className={HomeCss.heading}>Certificate Generator</h2>
             </div>
             <div className={HomeCss.contentBody}>
-                <h3>Get Started</h3>
-                <h4>Genenrate your certificate here!</h4>
+                <h3 className={HomeCss.getStarted}>Get Started</h3>
+                <h4 className={HomeCss.generateCertificate}>Generate your certificate here!</h4>
                 <button className={HomeCss.generateButton}>Generate</button>
             </div>
             <div className={HomeCss.footer}>

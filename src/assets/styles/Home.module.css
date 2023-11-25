@@ -6,7 +6,8 @@
 body{
     width: 100%;
     height: 100%;
-    background-image: url("opoy7.jpg");
+    /* background-image: url("opoy7.jpg"); */
+    background-color: black;
     background-size: cover;
 }
 
@@ -60,4 +61,12 @@ body{
 .githubHeading{
     font-size: 15px;
     color: rgba(255, 255, 255, 0.87);
+}
+
+.getStarted{
+    font-size: 1.8rem;
+}
+
+.generateCertificate{
+    font-size: 1.5rem;
 }

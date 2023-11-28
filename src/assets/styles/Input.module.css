@@ -1,0 +1,21 @@
+.formDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+    left: 37%;
+    row-gap: 30px;
+}
+
+.contentDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.subtitle{
+    font-size: 0.7rem;
+}

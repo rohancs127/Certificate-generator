@@ -5,6 +5,7 @@ const Input = ()=>{
         <section>
             <form className={InputCss.formDiv}>
                 <h2 className={InputCss.heading}>Enter your details</h2>
+                <div className={InputCss.inputDiv}>
                 <div className={InputCss.contentDiv}>
                     <h3 className={InputCss.tag}>Name</h3>
                     <input className={InputCss.tagInput} placeholder="Enter your name"></input>
@@ -16,6 +17,7 @@ const Input = ()=>{
                 <div className={InputCss.contentDiv}>
                     <h3 className={InputCss.tag}>College</h3>
                     <input className={InputCss.tagInput} placeholder="Enter your college"></input>
+                </div>
                 </div>
                 <button>Generate</button>
                 <h4 className={InputCss.subtitle}>Click here to generate your certificate</h4>

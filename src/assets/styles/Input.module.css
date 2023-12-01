@@ -21,3 +21,22 @@
     color: rgb(159, 159, 159);
     font-weight: 100;
 }
+
+.inputDiv{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    row-gap: 30px;
+}
+
+.tagInput{
+    padding: 7px;
+    background: none;
+    border: none;
+    border-bottom: solid 0.01rem;
+    border-color:rgb(103, 103, 103);
+}
+
+.tagInput:focus{
+    outline: none;
+}

@@ -11,6 +11,10 @@ const Input = ()=>{
                     <input className={InputCss.tagInput} placeholder="Enter your name"></input>
                 </div>
                 <div className={InputCss.contentDiv}>
+                    <h3 className={InputCss.tag}>Event</h3>
+                    <input className={InputCss.tagInput} placeholder="Enter the event name"></input>
+                </div>
+                <div className={InputCss.contentDiv}>
                     <h3 className={InputCss.tag}>Branch</h3>
                     <input className={InputCss.tagInput} placeholder="Enter your branch"></input>
                 </div>

@@ -22,6 +22,10 @@ const Input = ()=>{
                     <h3 className={InputCss.tag}>College</h3>
                     <input className={InputCss.tagInput} placeholder="Enter your college"></input>
                 </div>
+                <div className={InputCss.contentDiv}>
+                    <h3 className={InputCss.tag}>Organizer</h3>
+                    <input className={InputCss.tagInput} placeholder="Enter Organizer name"></input>
+                </div>
                 </div>
                 <button>Generate</button>
                 <h4 className={InputCss.subtitle}>Click here to generate your certificate</h4>

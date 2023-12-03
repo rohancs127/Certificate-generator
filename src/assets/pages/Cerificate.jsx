@@ -7,8 +7,15 @@ const Certificate = ()=>{
     // },[])
     return(
         <section>
-            <div className={CertificateCss.heading}>Certificate</div>
-            <div className={CertificateCss.certificateBody}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi itaque omnis obcaecati illum, fugit neque, sint blanditiis adipisci repudiandae nemo beatae cupiditate harum eos veritatis nobis eius laborum aperiam accusantium error. Cumque dignissimos expedita, quasi ipsum iure at tenetur unde, a neque omnis magni itaque dolores blanditiis exercitationem aut minima.</div>
+
+            <div className={CertificateCss.header}>
+                <h2 className={CertificateCss.heading}>Certificate</h2>
+                <h3 className={CertificateCss.subtitle}>Of Participation</h3>
+            </div> 
+
+            <div className={CertificateCss.certificateBody}>This Certificate is presented to [Name] from the Department of [Department], studying at [College], for actively participating in [Event]. We thank you for your participation and look forward to seeing you in future events.</div>
+
+            <div className={CertificateCss.organizer}>[Organizer]</div>
         </section>
     )
 }

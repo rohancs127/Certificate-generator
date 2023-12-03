@@ -1,3 +1,25 @@
-.bodyStyling{
-    background-color: rgb(0, 0, 66);
+body{
+    
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 100px;
+    row-gap: 50px;
+    background-image: url('certificate-background.png');
+    background-size: cover;
+    width: 3590px;
+    height: 2480px;
+    font-size: 5rem;
+}
+
+.certificateBody{
+    text-align: center;
+}
+
+.header{
+    text-align: center;
 }

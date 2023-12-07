@@ -27,7 +27,7 @@ const Input = ()=>{
                     <input className={InputCss.tagInput} placeholder="Enter Organizer name"></input>
                 </div>
                 </div>
-                <button>Generate</button>
+                <button className={InputCss.butn}>Generate</button>
                 <h4 className={InputCss.subtitle}>Click here to generate your certificate</h4>
             </form>
         </section>

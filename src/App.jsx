@@ -6,7 +6,7 @@ import Input from './assets/pages/Input';
 function App() {
 
   return (
-    <Certificate/>
+    <Home/>
   )
 }
 

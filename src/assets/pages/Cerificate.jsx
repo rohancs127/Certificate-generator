@@ -6,7 +6,7 @@ const Certificate = ()=>{
     // document.body.classList.add('bodyStyling')
     // },[])
     return(
-        <section>
+        <section className={CertificateCss.certificate}>
 
             <div className={CertificateCss.header}>
                 <h2 className={CertificateCss.heading}>Certificate</h2>

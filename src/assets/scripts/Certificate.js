@@ -6,3 +6,5 @@ let certificateData  = {
    event:'',
    organizer:''
 }
+
+export default certificateData;

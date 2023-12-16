@@ -1,6 +1,9 @@
-import InputCss from '../styles/Input.module.css'
+import InputCss from '../styles/Input.module.css';
+import certificateData from '../scripts/Certificate';
+import { useState } from 'react';
 
 const Input = ()=>{
+    const [input, setInput] = useState(certificateData);
     return(
         <section>
             <form className={InputCss.formDiv}>

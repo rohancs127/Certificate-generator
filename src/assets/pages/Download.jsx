@@ -4,7 +4,7 @@ import DownloadCss from '../styles/Download.module.css';
 const Download = ()=>{
     return(
         <section>
-
+            <Certificate/>
         </section>
     );
 }

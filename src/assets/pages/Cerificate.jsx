@@ -1,10 +1,12 @@
 import { useEffect } from 'react'
-import CertificateCss from '../styles/Certificate.module.css'
+import CertificateCss from '../styles/Certificate.module.css';
+import certificateData from '../scripts/Certificate';
 
 const Certificate = ()=>{
     // useEffect(()=>{
     // document.body.classList.add('bodyStyling')
     // },[])
+    const {name, dept, college, event, organizer} = certificateData;
     return(
         <section className={CertificateCss.certificate}>
 
@@ -13,9 +15,9 @@ const Certificate = ()=>{
                 <h3 className={CertificateCss.subtitle}>Of Participation</h3>
             </div> 
 
-            <div className={CertificateCss.certificateBody}>This Certificate is presented to [Name] from the Department of [Department], studying at [College], for actively participating in [Event]. We thank you for your participation and look forward to seeing you in future events.</div>
+            <div className={CertificateCss.certificateBody}>This Certificate is presented to {name} from the Department of {dept}, studying at {college}, for actively participating in {event}. We thank you for your participation and look forward to seeing you in future events.</div>
 
-            <div className={CertificateCss.organizer}>[Organizer]</div>
+            <div className={CertificateCss.organizer}>{organizer}</div>
         </section>
     )
 }

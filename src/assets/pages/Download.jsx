@@ -6,7 +6,12 @@ const Download = ()=>{
     return(
         <section>
             <div className={DownloadCss.certificate}>
+                <div>
                 <Certificate/>
+                </div>
+                <div>
+                    <button>Download</button>
+                </div>
             </div>
         </section>
     );

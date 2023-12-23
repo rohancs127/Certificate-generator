@@ -9,8 +9,9 @@ const Download = ()=>{
                 <div>
                 <Certificate/>
                 </div>
-                <div>
+                <div className={DownloadCss.buttonDiv}>
                     <button>Download</button>
+                    <h4 className={DownloadCss.description}>Click here to Download</h4>
                 </div>
             </div>
         </section>

@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useRef } from 'react'
 import CertificateCss from '../styles/Certificate.module.css';
 import certificateData from '../scripts/Certificate';
 
@@ -6,9 +6,10 @@ const Certificate = ()=>{
     // useEffect(()=>{
     // document.body.classList.add('bodyStyling')
     // },[])
+    const certificateRef = useRef(null);
     const {name, dept, college, event, organizer} = certificateData;
     return(
-        <section className={CertificateCss.certificate}>
+        <section ref={certificateRef} className={CertificateCss.certificate}>
 
             <div className={CertificateCss.header}>
                 <h2 className={CertificateCss.heading}>Certificate</h2>

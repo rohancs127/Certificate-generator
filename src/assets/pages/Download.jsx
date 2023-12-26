@@ -1,6 +1,5 @@
 import Certificate from "./Cerificate";
 import DownloadCss from '../styles/Download.module.css';
-import handleDownload from "../scripts/Download";
 
 const Download = ()=>{
    
@@ -11,7 +10,7 @@ const Download = ()=>{
                 <Certificate/>
                 </div>
                 <div className={DownloadCss.buttonDiv}>
-                    <button onClick={handleDownload}>Download</button>
+                    <button onClick={Certificate.handleDownload}>Download</button>
                     <h4 className={DownloadCss.description}>Click here to Download</h4>
                 </div>
             </div>

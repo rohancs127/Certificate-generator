@@ -9,7 +9,6 @@ const Download = ()=>{
         html2canvas(certificateElement)
           .then((canvas) => {
             const image = canvas.toDataURL('image/png');
-            // You can now use the image URL as needed, e.g., initiate a download
             const link = document.createElement('a');
             link.href = image;
             link.download = 'certificate.png';

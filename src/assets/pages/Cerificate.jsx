@@ -1,3 +1,5 @@
+import React, { useRef } from 'react';
+import html2canvas from 'html2canvas';
 import CertificateCss from '../styles/Certificate.module.css';
 import certificateData from '../scripts/Certificate';
 
@@ -5,8 +7,11 @@ import certificateData from '../scripts/Certificate';
 const Certificate = ()=>{
     
     const {name, dept, college, event, organizer} = certificateData;
+
+    const certificateRef = useRef(null);
+
     return(
-        <section className={CertificateCss.certificate}>
+        <section className={CertificateCss.certificate} ref={certificateRef} id="certificate-section">
 
             <div className={CertificateCss.header}>
                 <h2 className={CertificateCss.heading}>Certificate</h2>

@@ -1,28 +1,12 @@
-import { useRef } from 'react'
 import CertificateCss from '../styles/Certificate.module.css';
 import certificateData from '../scripts/Certificate';
-import html2canvas from 'html2canvas';
 
 
 const Certificate = ()=>{
-    // useEffect(()=>{
-    // document.body.classList.add('bodyStyling')
-    // },[])
-    const certificateRef = useRef(null);
+    
     const {name, dept, college, event, organizer} = certificateData;
-    const handleDownload = () => {
-        if (certificateRef.current) {
-          html2canvas(certificateRef.current).then((canvas) => {
-            const image = canvas.toDataURL('image/png');
-            const link = document.createElement('a');
-            link.href = image;
-            link.download = 'certificate.png';
-            link.click();
-          });
-        }
-      };
     return(
-        <section ref={certificateRef} className={CertificateCss.certificate}>
+        <section className={CertificateCss.certificate}>
 
             <div className={CertificateCss.header}>
                 <h2 className={CertificateCss.heading}>Certificate</h2>

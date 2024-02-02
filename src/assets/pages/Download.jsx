@@ -10,7 +10,7 @@ const Download = ()=>{
                 <Certificate/>
                 </div>
                 <div className={DownloadCss.buttonDiv}>
-                    <button onClick={Certificate.handleDownload}>Download</button>
+                    <button>Download</button>
                     <h4 className={DownloadCss.description}>Click here to Download</h4>
                 </div>
             </div>

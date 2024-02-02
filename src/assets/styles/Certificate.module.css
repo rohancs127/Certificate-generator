@@ -46,7 +46,7 @@ body{
 
 .organizer{
     font-size: 30px;
-    position: fixed;
-    bottom: 220px;
+    position: relative;
+    top: 600px;
     font-family: 'Libre Baskerville';
 }

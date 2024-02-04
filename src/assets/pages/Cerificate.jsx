@@ -18,7 +18,7 @@ const Certificate = ()=>{
                 <h3 className={CertificateCss.subtitle}>Of Participation</h3>
             </div> 
 
-            <div className={CertificateCss.certificateBody}>This Certificate is presented to {name} from the Department of {dept}, studying at {college}, for actively participating in {event}. We thank you for your participation and look forward to seeing you in future events.</div>
+            <div className={CertificateCss.certificateBody}>This Certificate is presented to <strong>{name}</strong> from the Department of <strong>{dept}</strong>, studying at <strong>{college}</strong>, for actively participating in <strong>{event}</strong>. We thank you for your participation and look forward to seeing you in future events.</div>
 
             <div className={CertificateCss.organizer}>{organizer}</div>
         </section>

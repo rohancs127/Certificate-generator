@@ -1,8 +1,10 @@
 import Certificate from "./Cerificate";
 import DownloadCss from '../styles/Download.module.css';
 import html2canvas from 'html2canvas';
+import certificateData from "../scripts/Certificate";
 
 const Download = ()=>{
+    const {name, event} = certificateData;
     const handleDownload = () => {
         const certificateElement = document.getElementById('certificate-section');
     
@@ -11,7 +13,7 @@ const Download = ()=>{
             const image = canvas.toDataURL('image/png');
             const link = document.createElement('a');
             link.href = image;
-            link.download = 'certificate.png';
+            link.download = `${name}.png`;
             link.click();
           })
           .catch((error) => {

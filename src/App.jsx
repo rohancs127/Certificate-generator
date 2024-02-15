@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Home from './assets/pages/Home';
-import Certificate from './assets/pages/Cerificate';
+import Certificate from './assets/pages/Certificate';
 import Input from './assets/pages/Input';
 import Download from './assets/pages/Download';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';

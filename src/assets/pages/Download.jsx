@@ -1,4 +1,4 @@
-import Certificate from "./Cerificate";
+import Certificate from "./Certificate";
 import DownloadCss from '../styles/Download.module.css';
 import html2canvas from 'html2canvas';
 import certificateData from "../scripts/Certificate";

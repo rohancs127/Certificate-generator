@@ -40,3 +40,10 @@
 .tagInput:focus{
     outline: none;
 }
+
+@media (max-width:580px) {
+    .formDiv{
+        top: 20%;
+        left: 10%;
+    }
+}

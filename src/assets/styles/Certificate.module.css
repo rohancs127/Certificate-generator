@@ -50,3 +50,31 @@ body{
     top: 400px;
     font-family: 'Libre Baskerville';
 }
+
+
+@media (max-width: 500px) {
+    .certificate{
+        width: 310px;
+        height: 195px;
+    }
+
+    .certificateBody{
+        font-size: 6px;
+        width: 300px;
+        top: 115px;
+    }
+
+    .header{
+        font-size: 14px;
+        top: 17px;
+    }
+
+    .subtitle{
+        font-size: 10px;
+    }
+
+    .organizer{
+        font-size: 12px;
+        top: 170px;
+    }
+}

@@ -54,14 +54,15 @@ body{
 
 @media (max-width: 500px) {
     .certificate{
-        width: 310px;
-        height: 195px;
+        width: 275px;
+        height: 173px;
+        background-position: auto;
     }
 
     .certificateBody{
-        font-size: 6px;
-        width: 300px;
-        top: 115px;
+        font-size: 7px;
+        width: 265px;
+        top: 110px;
     }
 
     .header{
@@ -74,7 +75,7 @@ body{
     }
 
     .organizer{
-        font-size: 12px;
-        top: 170px;
+        font-size: 11px;
+        top: 155px;
     }
 }

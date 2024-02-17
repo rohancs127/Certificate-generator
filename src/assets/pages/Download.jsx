@@ -8,7 +8,12 @@ const Download = ()=>{
     const handleDownload = () => {
         const certificateElement = document.getElementById('certificate-section');
     
-        html2canvas(certificateElement)
+        html2canvas(certificateElement, {
+          width: certificateElement.offsetWidth,
+          height: certificateElement.offsetHeight, 
+          scrollX: 0,
+          scrollY: -window.scrollY
+        })
           .then((canvas) => {
             const image = canvas.toDataURL('image/png');
             const link = document.createElement('a');

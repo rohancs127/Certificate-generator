@@ -3,10 +3,12 @@ import DownloadCss from "../styles/Download.module.css";
 import html2canvas from "html2canvas";
 import certificateData from "../scripts/Certificate";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 const Download = () => {
   const { name, event } = certificateData;
   const navigate = useNavigate();
+  const [displayDComplete, setDisplayDComplete] = useState(false);
   const handleDownload = () => {
     const certificateElement = document.getElementById("certificate-section");
 
@@ -26,6 +28,7 @@ const Download = () => {
       .catch((error) => {
         console.error("Error capturing certificate as image:", error);
       });
+    setDisplayDComplete(true);
     navigate("/home");
   };
 

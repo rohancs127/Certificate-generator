@@ -29,8 +29,6 @@ const Home = () => {
           </div>
         </a>
       </div>
-
-      {displayDComplete && <DownloadComplete />}
     </section>
   );
 };

@@ -2,6 +2,7 @@ import Certificate from "./Certificate";
 import DownloadCss from "../styles/Download.module.css";
 import html2canvas from "html2canvas";
 import certificateData from "../scripts/Certificate";
+import DownloadComplete from "../Components/DownloadComplete";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
@@ -29,7 +30,6 @@ const Download = () => {
         console.error("Error capturing certificate as image:", error);
       });
     setDisplayDComplete(true);
-    navigate("/home");
   };
 
   return (
@@ -43,6 +43,7 @@ const Download = () => {
           <h4 className={DownloadCss.description}>Click here to Download</h4>
         </div>
       </div>
+      {displayDComplete && <DownloadComplete />}
     </section>
   );
 };

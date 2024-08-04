@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Home from "./assets/pages/Home";
-import Certificate from "./assets/pages/Certificate";
-import Input from "./assets/pages/Input";
-import Download from "./assets/pages/Download";
+import Home from "./pages/Home";
+import Certificate from "./pages/Certificate";
+import Input from "./pages/Input";
+import Download from "./pages/Download";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {

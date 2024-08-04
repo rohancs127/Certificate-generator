@@ -6,26 +6,35 @@
   position: fixed;
   top: 30%;
   left: 34%;
-  background-color: rgb(45, 45, 45);
+  background-color: rgb(1, 5, 73);
   padding: 80px;
   border-radius: 15px;
   border: solid 1px #bebebe;
   box-shadow: inset 0px 0px 7px #cacaca;
-  animation: popup 0.3s 0s 1 ease-in-out;
+  animation: popup 0.3s ease-in-out;
   color: #fff;
   font-size: 0.8rem;
 }
 
+.d-c-maindiv{
+  background-color: black;
+  width: 99vw;
+  height: 99vh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 @keyframes popup {
   0% {
-    top: 100%;
+    opacity: 0;
   }
-
-  60% {
-    top: 29%;
-  }
-
+  /* 50% {
+    transform: translateY(10%);
+  } */
   100% {
-    top: 30%;
+    opacity: 1;
   }
 }

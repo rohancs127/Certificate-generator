@@ -35,6 +35,14 @@
   right: 0;
 }
 
+@media (max-width:640px) {
+  .d-c-section{
+    width: 230px;
+    height: 80px;
+    font-size: 0.4rem;
+  }
+}
+
 @keyframes popup {
   0% {
     opacity: 0;

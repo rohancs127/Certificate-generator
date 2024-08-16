@@ -52,22 +52,25 @@ body{
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 640px) {
     .certificate{
         width: 275px;
         height: 173px;
         background-position: auto;
+        margin-top: 100px;
     }
 
     .certificateBody{
         font-size: 7px;
         width: 265px;
         top: 110px;
+        margin-top: 100px;
     }
 
     .header{
         font-size: 14px;
         top: 17px;
+        margin-top: 100px;
     }
 
     .subtitle{
